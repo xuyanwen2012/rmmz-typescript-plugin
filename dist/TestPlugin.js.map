@@ -1,0 +1,1 @@
+{"version":3,"file":"TestPlugin.js","sources":["../src/index.ts"],"sourcesContent":[null],"names":[],"mappings":";;;IACA,MAAM,SAAU,SAAQ,MAAM;;;;;QAK5B,QAAQ,CAAC,CAAS,EAAE,CAAS;YAC3B,OAAO,CAAC,CAAC;SACV;KACF;IAED,MAAM,GAAG,GAAG,IAAI,SAAS,CAAC,GAAG,EAAE,GAAG,CAAC,CAAC;IAGpC,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,KAAK,EAAE,CAAC;;;;;;"}

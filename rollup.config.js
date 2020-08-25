@@ -6,7 +6,8 @@ export default {
   input: 'src/index.ts',
   output: {
     file: pkg.main,
-    format: 'iife'
+    format: 'iife',
+    sourcemap: true
   },
-  plugins: [typescript()]
+  plugins: [typescript()],
 };
