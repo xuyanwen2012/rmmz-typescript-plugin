@@ -5,7 +5,14 @@
   "main": "dist/TestPlugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "pnpm.cmd run compile",
+    "pretest": "pnpm.cmd run compile",
+    "posttest": "pnpm.cmd run check"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +20,9 @@
     "@rollup/plugin-typescript": "^5.0.2",
     "rollup": "^2.26.5",
     "tslib": "^2.0.1",
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.2",
+    "gts": "^2.0.2",
+    "@types/node": "^13.11.1"
   },
   "dependencies": {
     "pixi.js": "^5.3.3"

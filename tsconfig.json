@@ -1,12 +1,16 @@
 {
+  "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "commonjs",
-    "strict": true,
-    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": "build",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "lib": [
+      "dom"
+    ]
   },
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Recommended"
+  "typeRoots": ["./types"],
+  "include": [
+    "src/**/*",
+    "types/rmmv.d.ts"
+  ]
 }
