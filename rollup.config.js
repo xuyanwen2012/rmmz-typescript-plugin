@@ -1,5 +1,4 @@
 import typescript from '@rollup/plugin-typescript';
-
 import pkg from './package.json';
 
 export default {
@@ -7,7 +6,7 @@ export default {
   output: {
     file: pkg.main,
     format: 'iife',
-    sourcemap: true
+    sourcemap: true,
   },
   plugins: [typescript()],
 };

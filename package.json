@@ -6,13 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "check": "gts check",
-    "clean": "gts clean",
-    "compile": "tsc",
-    "fix": "gts fix",
-    "prepare": "pnpm.cmd run compile",
-    "pretest": "pnpm.cmd run compile",
-    "posttest": "pnpm.cmd run check"
+    "check": "gts check src/**/*",
+    "fix": "gts fix src/**/*"
   },
   "author": "",
   "license": "ISC",

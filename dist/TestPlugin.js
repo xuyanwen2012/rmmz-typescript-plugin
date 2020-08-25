@@ -7,7 +7,7 @@
          * @param y
          */
         testFunc(x, y) {
-            return 1;
+            return x + y;
         }
     }
     const btm = new TestClass(100, 200);
