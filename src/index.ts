@@ -1,4 +1,5 @@
-class TestClass {
+
+class TestClass extends Bitmap{
   /**
    * @param x
    * @param y
@@ -8,4 +9,8 @@ class TestClass {
   }
 }
 
-console.log(new TestClass().testFunc(1, 2));
+const btm = new TestClass(100, 200);
+
+
+
+console.log(btm.clear());
